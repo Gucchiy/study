@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oI73PkmS56PW0FHBpaJwvL4j/rKcTp32Gjw3Mjek9jU5e13jnkMq5fayskHIiBW4DgveHPqX6qRnUfG1oak0jQ==",
+  "dgSpecHash": "lCruENuXtvVOcm9FJQe3BZ3FXFXSo4m7iQxLrgBtARMQNvgRliAG+ZjzwSbMAA1bVUhZdtT1g0lZTLNabIT3qA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yoyamagu\\source\\study\\M365dev\\graphconsoleapp\\graphconsoleapp.csproj",
+  "projectFilePath": "C:\\Users\\yoyamagu\\source\\repos\\study\\M365dev\\graphconsoleapp\\graphconsoleapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yoyamagu\\.nuget\\packages\\azure.core\\1.21.0\\azure.core.1.21.0.nupkg.sha512",
     "C:\\Users\\yoyamagu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
@@ -38,9 +38,9 @@
     "C:\\Users\\yoyamagu\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\yoyamagu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\yoyamagu\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\yoyamagu\\.nuget\\packages\\system.security.claims\\4.3.0\\system.security.claims.4.3.0.nupkg.sha512",
-    "C:\\Users\\yoyamagu\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
-    "C:\\Users\\yoyamagu\\.nuget\\packages\\system.security.principal\\4.3.0\\system.security.principal.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.claims\\4.3.0\\system.security.claims.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.principal\\4.3.0\\system.security.principal.4.3.0.nupkg.sha512",
     "C:\\Users\\yoyamagu\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\yoyamagu\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\yoyamagu\\.nuget\\packages\\system.text.json\\6.0.1\\system.text.json.6.0.1.nupkg.sha512",
