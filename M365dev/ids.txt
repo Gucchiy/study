@@ -1,0 +1,30 @@
+Application (Client) ID
+6b7e704e-821d-464c-86c5-d6376e630047
+
+directory (tenant) ID
+b1f72b1c-7c35-477f-b483-4ff7c8a992a4
+
+
+Client secret
+Value
+jp37Q~YRRU9nVH8wgmzmSo7cTQI_XV2phjh1A
+
+Secret ID
+488a28d9-9dcf-4f21-b304-2a17ef8790a7
+
+
+--- MS テナント
+
+Application (Client) ID
+9f57c496-1925-498f-9ed5-f3457406eab5
+
+directory (tenant) ID
+72f988bf-86f1-41af-91ab-2d7cd011db47
+
+
+Client secret
+Value
+VO17Q~6rXhVCMQZfoRJtcWpreSpNCYMQis3D3
+
+Secret ID
+837a3550-ce6d-4ed8-9010-677ea4762cd3
