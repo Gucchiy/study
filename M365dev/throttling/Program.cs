@@ -70,8 +70,8 @@ namespace throttling
             Console.WriteLine("{0}/{1} requests succeeded.", successRequests, totalRequests);
             if (successRequests != totalRequests)
             {
-            Console.WriteLine("Failed response code: {0}", failResponseCode.ToString());
-            Console.WriteLine("Failed response headers: {0}", failedHeaders);
+                Console.WriteLine("Failed response code: {0}", failResponseCode.ToString());
+                Console.WriteLine("Failed response headers: {0}", failedHeaders);
             }
         }
 
