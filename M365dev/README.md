@@ -2,8 +2,11 @@
 
 ## [Optimize data usage when using Microsoft Graph with query parameters](https://docs.microsoft.com/en-us/learn/modules/optimize-data-usage/)
 
-Excersize のコード：（社内 dmain では実行不可）
+（以下、社内 domain では実行不可）
+
+Excersize のコード：
 [graphconsoleapp](./graphconsoleapp/)
 
 ## [Optimize network traffic with Microsoft Graph](https://docs.microsoft.com/en-us/learn/modules/optimize-network-traffic/)
+Excersize のコード：
 [throttling](./throttling/)
