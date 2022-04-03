@@ -43,27 +43,27 @@ namespace throttling
 
             for (int i = 0; i < totalRequests; i++)
             {
-            tasks.Add(Task.Run(() =>
-            {
-                var response = client.GetAsync("https://graph.microsoft.com/v1.0/me/messages").Result;
-                Console.Write(".");
-                if (response.StatusCode == HttpStatusCode.OK)
+                tasks.Add(Task.Run(() =>
                 {
-                successRequests++;
-                }
-                else
-                {
-                Console.Write('X');
-                failResponseCode = response.StatusCode;
-                failedHeaders = response.Headers;
-                }
-            }));
+                    var response = client.GetAsync("https://graph.microsoft.com/v1.0/me/messages").Result;
+                    Console.Write(".");
+                    if (response.StatusCode == HttpStatusCode.OK)
+                    {
+                        successRequests++;
+                    }
+                    else
+                    {
+                        Console.Write('X');
+                        failResponseCode = response.StatusCode;
+                        failedHeaders = response.Headers;
+                    }
+                }));
             }
 
             var allWork = Task.WhenAll(tasks);
             try
             {
-            allWork.Wait();
+                allWork.Wait();
             }
             catch { }
             Console.WriteLine();
@@ -80,14 +80,14 @@ namespace throttling
             try
             {
                 var config = new ConfigurationBuilder()
-                                    .SetBasePath(System.IO.Directory.GetCurrentDirectory())
-                                    .AddJsonFile("appsettings.json", false, true)
-                                    .Build();
+                                .SetBasePath(System.IO.Directory.GetCurrentDirectory())
+                                .AddJsonFile("appsettings.json", false, true)
+                                .Build();
 
-                if(string.IsNullOrEmpty(config["applicationId"]) ||
-                    string.IsNullOrEmpty(config["tenantId"]) )
+                if (string.IsNullOrEmpty(config["applicationId"]) ||
+                    string.IsNullOrEmpty(config["tenantId"]))
                 {
-                        return null;
+                    return null;
                 }
 
                 return config;
@@ -114,7 +114,7 @@ namespace throttling
         }
         private static HttpClient GetAuthenticatedHTTPClient(IConfigurationRoot config, string userName, SecureString userPassword)
         {
-            var authenticationProvider = CreateAuthorizationProvider(config, userName, userPassword );
+            var authenticationProvider = CreateAuthorizationProvider(config, userName, userPassword);
             var httpClient = new HttpClient(new AuthHandler(authenticationProvider, new HttpClientHandler()));
             return httpClient;
         }
@@ -123,10 +123,10 @@ namespace throttling
         {
             Console.WriteLine("Enter your password");
             SecureString password = new SecureString();
-            while(true)
+            while (true)
             {
                 ConsoleKeyInfo c = Console.ReadKey(true);
-                if(c.Key == ConsoleKey.Enter)
+                if (c.Key == ConsoleKey.Enter)
                 {
                     break;
                 }
